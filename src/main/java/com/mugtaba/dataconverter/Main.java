@@ -47,6 +47,10 @@ public class Main {
 
         for (String arg : args) {
             if (arg.startsWith("--")) {
+                if (arg.equalsIgnoreCase("--help")) {
+                    printUsage();
+                    System.exit(0);
+                }
                 String[] parts = arg.substring(2).split("=", 2);
                 if (parts.length == 2) {
                     arguments.put(parts[0].toLowerCase(), parts[1]);
