@@ -36,5 +36,6 @@ replay_pid*
 .vscode/
 
 # properties file
-*.properties
-resources/*.properties
+config.properties
+
+dependency-reduced-pom.xml
