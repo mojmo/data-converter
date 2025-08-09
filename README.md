@@ -3,6 +3,7 @@
 ![Java Version](https://img.shields.io/badge/Java-21-orange)
 ![CLI](https://img.shields.io/badge/UI-CLI-yellow)
 ![License : Apache 2.0](https://img.shields.io/badge/License-Apache-blue)
+[![GitHub Release](https://img.shields.io/github/v/release/mojmo/data-converter)](https://github.com/mojmo/data-converter/releases)
 
 A simple Java command-line tool for seamless bidirectional conversion between JSON and XML formats, with proper null value handling and automatic data type preservation.
 
